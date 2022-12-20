@@ -10,3 +10,18 @@ GET  http://localhost:8081/registrationevents/get/1
 ### USE CASE 4
 GET  http://localhost:8081/registrationevents/by-student-id/2
 
+
+### USE CASE 6
+GET  http://localhost:8081/registrations/6
+
+
+### USE CASE 5
+
+POST http://localhost:8081/student/registration/
+Content-Type: application/json
+
+{
+  "courseId": 1,
+  "priority": 1,
+  "requested": true
+}
