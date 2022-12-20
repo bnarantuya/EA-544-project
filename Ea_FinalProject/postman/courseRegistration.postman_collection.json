@@ -1,0 +1,338 @@
+{
+	"info": {
+		"_postman_id": "5c639979-c4dd-4341-bbfa-b51c5000e0bd",
+		"name": "courseRegistration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Assad\",\r\n    \"lastName\":\"Saad\",\r\n    \"email\":\"asaad@miu.edu\",\r\n    \r\n    \"password\":\"123\",\r\n    \"homeAddress\":{\r\n        \"street\":\"N \",\r\n        \"city\":\"FairField\",\r\n        \"postalCode\":52557,\r\n        \"state\":\"Iowa\"\r\n\r\n    },\r\n     \"mailingAddress\":{\r\n        \"street\":\"North 10000\",\r\n        \"city\":\"FairField\",\r\n        \"postalCode\":52557,\r\n        \"state\":\"Iowa\"\r\n\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/auth/signup/faculty",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"signup",
+						"faculty"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getStudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/students/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"EA\",\r\n    \"description\":\"In this course we teach Spring  and Microservice\",\r\n    \"code\":\"CS521\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/courses/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/courses/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createCourseOffering",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"totalSeat\":30,\r\n    \"course_id\":13,\r\n    \"faculty_id\":10,\r\n    \"block_id\":16\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/courseoffering/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courseoffering",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createacademicblock",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"February 2021\",\r\n    \"semester\":\"Winter\",\r\n    \"year\":2022,\r\n    \"month\":1,\r\n    \"day\":7,\r\n    \"startWeek\":1,\r\n    \"endWeek\":4\r\n\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/academicblocks/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"academicblocks",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getacademicblock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/academicblocks/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"academicblocks",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCourseOffering",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/courseoffering/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courseoffering",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createregistrationevents",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"May 2021\",\r\n    \"startDateTime\":\"2021-12-16 12:00:00\",\r\n    \"endDateTime\":\"2021-12-24 18:00:00\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/registrationevents/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"registrationevents",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createRegistrationgroup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"MPP Track\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/registrationgroup/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"registrationgroup",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getregistrationevent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/registrationevents/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"registrationevents",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getRegistrationGroup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/registrationgroup/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"registrationgroup",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addStudentToGroup",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[29,30,2]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/registrationgroup/add/students/28",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"registrationgroup",
+						"add",
+						"students",
+						"28"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

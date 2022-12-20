@@ -1,0 +1,12 @@
+### USE CASE 1
+GET http://localhost:8081/registrationevents/latest
+
+### USE CASE 7
+PATCH http://localhost:8081/registrationevents/updatestatus/1?processed=true
+
+### USER CASE 3 - GET
+GET  http://localhost:8081/registrationevents/get/1
+
+### USE CASE 4
+GET  http://localhost:8081/registrationevents/by-student-id/2
+

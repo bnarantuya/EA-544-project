@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd50f33e-cd90-48be-a4a1-a7ed20b8c75c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MIUCourseReg/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIUCourseReg/src/main/resources/applicatio.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIUCourseReg/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/.idea/EA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/EA Previous/Assignments/.idea/Assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/EA Previous/Project/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/AirlineReservationSystem/.idea/AirlineReservationSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab11_1/exercise11_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab11_3/exercise11_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab12_1/exercise12_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab12_2/exercise12_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab13_1/exercise13_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab13_2/lab13_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab15_1/exercise15_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab15_2/lab13_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab16_1/exercise16_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab16_2/exercise16_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/lab17_1/exercise16_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA 2/demo/labs/spring-security-lab/.idea/spring-security-lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/.idea/EA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/EA Previous/Assignments/.idea/Assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/EA Previous/Project/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/AirlineReservationSystem/.idea/AirlineReservationSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab11_1/exercise11_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab11_3/exercise11_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab12_1/exercise12_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab12_2/exercise12_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab13_1/exercise13_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab13_2/lab13_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab15_1/exercise15_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab15_2/lab13_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab16_1/exercise16_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab16_2/exercise16_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/lab17_1/exercise16_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Collection/EA/demo/labs/spring-security-lab/.idea/spring-security-lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/Exercise-11_1/Exercise11_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-11_2/exercise11_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-11_3/exercise11_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-12_1/exercise12_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-13_1/exercise13_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-15_1/exercise15_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-16-1/exercise-16-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-16-2/exercise-16-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EA-Meron/EA Exams and quizes/Labs/exercise-17-2/exercise-17-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise/Exercise-19/.idea/Exercise-15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise/Exercise-21/.idea/Exercise-15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/Lab-17/.idea/Lab-17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/Flash/MPP &amp; FPP/References/Henok/MUM materials/MyMPP/mppProject-master-eb55e25830eb8191a738eb4a46f78e971f6cd6b8 2/mppProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/Project/WAAFinalProject/.idea/WAAFinalProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/Amanuel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/Amanuel/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/Amanuel/Amanuel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_orm_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/interview/src/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/longestPalindrom/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/longestPalindrom/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/longestPalindrom/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/longestPalindrom/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/longestPalindrom/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/ReactBasics/longestPalindrom/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/FinalExamWAP/.idea/FinalExamWAP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/WAA July 2021/Assignments/Lab1/Lab1/product_springmvc/product_springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/WAA July 2021/Assignments/Lab7/.idea/Lab7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/WAA July 2021/Demos/Lesson01/Lesson01/.idea/Lesson01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/WAA July 2021/Demos/Lesson01/Lesson01/jspintro/jspintro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/WAA July 2021/Demos/Lesson01/Lesson01/jspintro/src/jspintro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman1/WAA July 2021/Demos/Lesson01/Lesson01/orderform/orderform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/.idea/Demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/EmployeeValidDemo/.idea/EmployeeValidDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/EmployeeValidDemo/EmployeeValidDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson01/Lesson01/Lesson01/.idea/Lesson01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson01/Lesson01/Lesson01/jspintro/jspintro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson01/Lesson01/Lesson01/orderform/orderform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson02/webstore_springmvc/.idea/webstore_springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson03/EmployeeValidDemo/.idea/EmployeeValidDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson03/EmployeeValidDemo/EmployeeValidDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/Lesson03/webstore_validation/webstore_validation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/webstore_springmvc/.idea/webstore_springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/Demos/webstore_validation/webstore_validation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/.idea/Assignements.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/Lab1/.idea/Lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/Lab1/product_springmvc/product_springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/Lab2/.idea/Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/Lab2/Lab2_Valid-new/Lab2_Valid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/Lab3/FirstSpringJava/FirstSpringJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/lab7/amanuel/.idea/ahmed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/lab7/amanuel/SimplePost/.idea/SimplePost.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA Aman2/waa (1)/Assignements/rami/Lab2_Valid (1)/Lab2_Valid/Lab2_Valid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WAA TOTAL/FinalExam_JPA/Project4JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WaaFolder/Amanuel copy/Amanuel/.idea/Amanuel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WaaFolder/WAAFinalexam/.idea/WAAFinalexam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WaaFolder/WAAFinalexam/Meron/SimplePost-FrontEnd-master/.idea/SimplePost-FrontEnd-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Important/WAA/WaaFolder/WAAFinalexam/Natu/SimplePost-FrontEnd-master/.idea/SimplePost-FrontEnd-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/DeadlockInJava/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/DeadlockInJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/DeadlockInJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/DeadlockInJava/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/DeadlockInJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/DeadlockInJava/DeadlockInJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/LampdaExExample/src/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/LampdaExExample/src/functionInterfaceExample/streamApi/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/Permutations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/Permutations/Permutations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/avoidNesteDeadlock/avoidNesteDeadlock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/jUnitDemo/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/jUnitDemo/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/longestPalindromeFinder/longestPalindromeFinder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/pallindrom/pallindrom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/permutation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interview/stringSwitchCase/stringSwitchCase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/InterviewQuestions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/src/Comparing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/src/FunctionalInterface/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../InterviewQuestions/src/FunctionalInterface/FunctionInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MIU/MUM-Courses/472 WAP/project/GS Solutions/src/Question9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MIU/MUM-Courses/472 WAP/project/ReversingString/src/ReverseStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MIU/MUM-Courses/472 WAP/project/StringComparison/src/Comparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MIU/MUM-Courses/545 WAA/previous/FinalExam_JPA/Project4JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MIU/MUM-Courses/MPP - Kidus/MIU - Courses/MPP/eclipse-workspace-projects/.idea/eclipse-workspace-projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MIU/MUM-Courses/MPP - Kidus/MIU - Courses/MPP/eclipse-workspace-projects/workspace-eclipse-for-students/LecturesAndLabs/bin/production/eclipse-workspace-projects/.idea/eclipse-workspace-projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Security/Security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Security/config/security/security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../capgemini interview question/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_30_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_30_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_aop_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_aop_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_context_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_context_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_expression_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_expression_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_orm_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_orm_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_test_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_test_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_tx_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_tx_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_web_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_web_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/studentRegistrationSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/studentRegistrationSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MIUCourseReg/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/StudentRegistrationSystemApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/PersistenceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/SpringFoxConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/security/CustomJwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/security/CustomUserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/security/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/config/security/SpringSecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/AcademicBlockController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/CourseOfferingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/FacultyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/RegistrationEventController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/RegistrationGroupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/RegistrationRequestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/AcademicBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/CourseOffering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Faculty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Registration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/RegistrationEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/RegistrationGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/RegistrationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/RegistrationStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/dto/AcademicBlockDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/dto/CourseOfferingDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/dto/EventDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/dto/RegistrationRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/dto/RequestedCourseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/dto/UserRegistrationDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/AcademicBlockRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/AccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/AddressRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/AdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/CourseOfferingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/FacultyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/RegistrationEventRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/RegistrationGroupRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/RegistrationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/RegistrationRequestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/AcademicBlockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/CourseOfferingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/FacultyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/Registerer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/RegistrationEventService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/RegistrationGroupService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/RegistrationRequestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/RegistrationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/AcademicBlockServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/AcademicBlockServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/CourseOfferingServiceImpl$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/CourseOfferingServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/CourseOfferingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistererImpl$StudentPriorityWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistererImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationEventServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationEventServiceImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationEventServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationGroupServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationGroupServiceImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationGroupServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationRequestServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationServiceImpl$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationServiceImpl$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/RegistrationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/service/implementation/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/util/DateAndCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/classes/miu/edu/com/courseregistrationsystem/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIUCourseReg/target/test-classes/miu/edu/com/courseregistrationsystem/StudentRegistrationSystemApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MIUCourseReg" />
+  </component>
+  <component name="ProjectId" id="2D08n8oqV2SmsYAu1V0dCg1zC6m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="miu.edu.com.courseregistrationsystem" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd50f33e-cd90-48be-a4a1-a7ed20b8c75c" name="Changes" comment="" />
+      <created>1659824805867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659824805867</updated>
+      <workItem from="1659824807827" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
