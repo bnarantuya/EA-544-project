@@ -25,3 +25,20 @@ Content-Type: application/json
   "priority": 1,
   "requested": true
 }
+
+###
+
+POST http://localhost:8081/registrationevents/2
+
+
+###
+POST http://localhost:8081/registrationevents/create
+Content-Type: application/json
+
+{
+  "name": "New event for registration",
+  "startDateTime": "2022-12-21 19:49:59"  ,
+  "endDatetime": "2023-12-21 19:49:59",
+  "status": 0,
+  "group": []
+}
