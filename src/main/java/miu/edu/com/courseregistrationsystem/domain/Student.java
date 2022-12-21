@@ -14,7 +14,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-
+//@DiscriminatorValue("student")
 public class Student extends User {
 
     @Embedded

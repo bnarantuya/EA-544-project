@@ -46,11 +46,16 @@ public class AcademicBlockServiceImpl implements AcademicBlockService {
         return academicBlockRepository.findAll();
     }
 
+
+    //IMPLEMENT THE REST
     @Override
     public void removeCourseOffering(int id) {
 
     }
 
+
+
+    //ADDING A BATCH OF COURSES TO A CERTAIN BLOCK
     @Override
     public AcademicBlock batchCourseAdd(int id, int[] course_offering) {
         Optional<AcademicBlock> registrationGroupOptional=academicBlockRepository.findById(id);

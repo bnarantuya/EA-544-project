@@ -28,15 +28,15 @@ public class RegistrationEvent {
     private String name;
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    @FutureOrPresent
+//    @FutureOrPresent
     private LocalDateTime startDateTime;
-    @Future
+//    @Future
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime endDateTime;
 
-
+    @Enumerated
     RegistrationStatus status;
-    @OneToMany
+    @OneToMany(fetch = FetchType.EAGER)
     private Set<RegistrationGroup> group = new HashSet<>();
 
 

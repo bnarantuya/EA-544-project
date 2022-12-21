@@ -12,15 +12,10 @@ public class RegistrationRequestServiceImpl implements RegistrationRequestServic
     @Autowired
     RegistrationRequestRepository registrationRequestRepository;
 
-//    @Override
-//    public RegistrationRequest getById(Integer id) {
-//        return registrationRequestRepository.getOne(id);
-//    }
-
-//    @Override
-//    public RegistrationRequest save(RegistrationRequest registrationRequest) {
-//        return registrationRequestRepository.save(registrationRequest);
-//    }
+    @Override
+    public void save(RegistrationRequest registrationRequest) {
+        registrationRequestRepository.save(registrationRequest);
+    }
 
     @Override
     public List<RegistrationRequest> getAllRegistrationRequest() {
@@ -33,3 +28,4 @@ public class RegistrationRequestServiceImpl implements RegistrationRequestServic
 
     }
 }
+

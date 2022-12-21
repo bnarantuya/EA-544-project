@@ -19,13 +19,11 @@ public class RegistrationGroup {
     @GeneratedValue
     private int id;
     @Column(nullable = false)
-        private  String title;
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "student_id")
+    private  String title;
+    @ManyToMany(cascade = CascadeType.ALL)
     private List<Student> student = new ArrayList<>();
-    @JoinColumn(name = "academic_block_id")
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<AcademicBlock> blocks = new ArrayList<>();
 
 }

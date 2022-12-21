@@ -23,6 +23,8 @@ public class RegistererImpl implements Registerer {
         this.registrationEventService = registrationEventService;
     }
 
+
+    //GETS ALL STUDENTS WITH THEIR DESIRED CLASSES by priority
     @Override
     public void process(int eventId) {
         RegistrationEvent registrationEvent = registrationEventService.getRegistrationEvent(eventId);
@@ -69,6 +71,9 @@ public class RegistererImpl implements Registerer {
 
     }
 
+
+    // Hashmap<StudentId, Queue>  USE CASE #4, COULD BE USE OF RETURNING COURSEOFFERING
+
     private Map<Integer,Map<Integer,PriorityQueue<RegistrationRequest>>> init(RegistrationEvent registrationEvent) {
         Map<Integer,Map<Integer,PriorityQueue<RegistrationRequest>>> memo = new HashMap<>();
 
@@ -76,7 +81,7 @@ public class RegistererImpl implements Registerer {
             for(AcademicBlock ab : group.getBlocks()){
                 for(CourseOffering of : ab.getCourseOfferings()){
                     for(Student student : of.getStudent()){
-                        if(!memo.containsKey(student.getId()))memo.put(student.getId(),new HashMap<>());
+                        if(!memo.containsKey(student.getId())) memo.put(student.getId(),new HashMap<>());
 
                         Map<Integer,PriorityQueue<RegistrationRequest>> temp = memo.get(ab.getId());
                         if(!temp.containsKey(student.getId())){

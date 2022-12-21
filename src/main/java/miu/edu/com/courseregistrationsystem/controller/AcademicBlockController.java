@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/academicblocks")
+@RequestMapping("/academicBlocks")
 public class AcademicBlockController {
 
     @Autowired
@@ -30,7 +30,7 @@ public class AcademicBlockController {
 //        academicBlockService.addCourseOffering(courseOffering);
 //    }
 
-    @RequestMapping(value = "/courseoffering/delete/{id}")
+    @RequestMapping(value = "/courseOffering/delete/{id}")
     public void removeCourseOffering(@PathVariable Integer id) {
 
         academicBlockService.removeCourseOffering(id);

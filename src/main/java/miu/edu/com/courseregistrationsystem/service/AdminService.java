@@ -5,7 +5,7 @@ import miu.edu.com.courseregistrationsystem.domain.User;
 
 import java.util.List;
 
-public interface AdminService {
+public interface  AdminService {
      Admin save(Admin admin);
      List<Admin> all();
 }

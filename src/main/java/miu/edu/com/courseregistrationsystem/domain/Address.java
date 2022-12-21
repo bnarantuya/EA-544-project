@@ -19,5 +19,4 @@ public class Address {
     private int postalCode;
     private String state;
 
-
 }

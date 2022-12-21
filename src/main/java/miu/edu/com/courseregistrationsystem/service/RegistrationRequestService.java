@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface RegistrationRequestService {
 //    RegistrationRequest getById(Integer id);
-//    RegistrationRequest save(RegistrationRequest registrationRequest);
+    void save(RegistrationRequest registrationRequest);
     List<RegistrationRequest> getAllRegistrationRequest();
     void delete(Integer id);
 }

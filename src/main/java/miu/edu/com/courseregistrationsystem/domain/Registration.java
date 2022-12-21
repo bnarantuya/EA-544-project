@@ -4,10 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -18,9 +15,9 @@ public class Registration {
     @GeneratedValue
     private int id;
 
-    @OneToOne
+    @ManyToOne
     private Student student;
 
-    @OneToOne
+    @ManyToOne
     private CourseOffering courseOffering;
 }

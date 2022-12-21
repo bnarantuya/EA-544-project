@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-212.5284.40">
+    <data-source name="studentregistrationsystem-db" uuid="8bc4e61f-2aba-4824-89e8-359d23683451">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>studentregistrationsystem-sys</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

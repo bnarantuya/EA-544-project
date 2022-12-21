@@ -3,14 +3,18 @@ package miu.edu.com.courseregistrationsystem.service.implementation;
 import miu.edu.com.courseregistrationsystem.domain.RegistrationEvent;
 import miu.edu.com.courseregistrationsystem.domain.RegistrationGroup;
 import miu.edu.com.courseregistrationsystem.domain.RegistrationStatus;
+import miu.edu.com.courseregistrationsystem.domain.Student;
 import miu.edu.com.courseregistrationsystem.exception.NotFoundException;
 import miu.edu.com.courseregistrationsystem.repository.RegistrationEventRepository;
 import miu.edu.com.courseregistrationsystem.repository.RegistrationGroupRepository;
+import miu.edu.com.courseregistrationsystem.repository.StudentRepository;
 import miu.edu.com.courseregistrationsystem.service.RegistrationEventService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -23,6 +27,9 @@ public class RegistrationEventServiceImpl implements RegistrationEventService {
     RegistrationEventRepository registrationEventRepository;
     @Autowired
     RegistrationGroupRepository groupRepository;
+
+    @Autowired
+    StudentRepository studentRepository;
 
     @Override
     public RegistrationEvent getRegistrationEvent(Integer id) {
@@ -61,7 +68,7 @@ public class RegistrationEventServiceImpl implements RegistrationEventService {
                         registrationEvent.setGroup(groups);
                         registrationEventRepository.save(registrationEvent);
                     } else
-                    new NotFoundException("Registration event is not Opend");
+                    new NotFoundException("Registration event is not Open");
 
                 }
             },()->{
@@ -71,18 +78,32 @@ public class RegistrationEventServiceImpl implements RegistrationEventService {
     }
 
     @Override
-    public RegistrationEvent updateStatus(int id,RegistrationStatus status) {
+    public void updateStatus(int id,RegistrationStatus status) {
         Optional<RegistrationEvent> event=registrationEventRepository.findById(id);
-        event.ifPresentOrElse(new Consumer<RegistrationEvent>() {
-            @Override
-            public void accept(RegistrationEvent registrationEvent) {
-                registrationEvent.setStatus(status);
-                registrationEventRepository.save(registrationEvent);
-
-            }
-        },()->{
-            new NotFoundException("Registration event is not found");
+        event.ifPresent(e -> {
+            e.setStatus(status);
+            registrationEventRepository.save(e);
         });
-        return event.orElseThrow();
+    }
+
+    @Override
+    public Optional<RegistrationEvent> latestOne() {
+        RegistrationStatus[] statuses = new RegistrationStatus[] {RegistrationStatus.OPEN, RegistrationStatus.CLOSED, RegistrationStatus.PROGRESS};
+        return registrationEventRepository.findAllByStatusInOrderByEndDateTimeDesc(statuses).stream().findFirst();
+    }
+
+    @Override
+    public Optional<RegistrationEvent> findByStudentId(int id) {
+        Optional<Student> student = studentRepository.findById(id);
+
+        if (student.isPresent()) {
+            Optional<RegistrationGroup> registrationGroupOptional = groupRepository.findByStudent(student.get());
+            if (registrationGroupOptional.isPresent()) {
+                RegistrationGroup group = registrationGroupOptional.get();
+                return registrationEventRepository.findByGroup(group);
+            }
+        }
+
+        return Optional.empty();
     }
 }

@@ -11,7 +11,9 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance(strategy = InheritanceType.JOINED)
+//@DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING, columnDefinition = "type")
+@Table(name="users")
 public abstract class User {
 
     @Id
@@ -26,7 +28,8 @@ public abstract class User {
     @Column(name = "password",nullable = false)
     @JsonIgnore
     private String password;
-    Role role;
+    @Enumerated
+    private Role role;
 
     public User(String firstName, String lastName, String email, String password, Role role) {
         this.firstName = firstName;

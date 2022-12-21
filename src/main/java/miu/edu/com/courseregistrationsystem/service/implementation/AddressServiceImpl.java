@@ -12,6 +12,9 @@ import java.util.List;
 @Service
 @Transactional
 public class AddressServiceImpl implements AddressService {
+
+
+    //NOT IMPLEMENTED, ADDRESS IS AN EMBEDDED CLASS
     @Autowired
     AddressRepository addressRepository;
 //    @Override

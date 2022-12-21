@@ -8,15 +8,10 @@ import java.time.LocalDateTime;
 public class AcademicBlockDto {
     private String name;
     private String semester;
-    private  int startWeek;
-    private  int endWeek;
+    private int startWeek;
+    private int endWeek;
     private int year;
     private int month;
     private int day;
-
-
-
-
-
 
 }

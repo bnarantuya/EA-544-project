@@ -9,7 +9,8 @@ import java.util.List;
 public interface RegistrationService {
 //    Registration getRegistration(Integer id);
     Registration save(Registration registration);
-    List<Registration> getAllRegistrationService();
+    List<Registration> getRegistrations(int id);
     RegistrationRequestDTO request(RegistrationRequestDTO registrationRequestDTO);
     void delete(Integer id);
+
 }

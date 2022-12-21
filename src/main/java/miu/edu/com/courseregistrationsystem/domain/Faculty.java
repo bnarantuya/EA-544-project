@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+//@DiscriminatorValue("faculty")
 public class Faculty extends User {
 
     private String title;
